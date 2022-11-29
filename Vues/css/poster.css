@@ -1,0 +1,41 @@
+
+
+<style>
+* {box-sizing: border-box;}
+
+
+input {
+    
+    
+    
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  
+}
+
+button {
+    padding: 16px 30px;
+    border-radius: 50px;
+    border: none;
+    background: #3C21B7;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .4s;
+}
+
+fieldset{
+    margin-top: 10px;
+    width: 40%;
+    background-color: #CB98ED;
+    box-shadow: 5px 5px 20px 1px  rgb(85,85,85);
+    border: 0px;
+    padding-left: 10px;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    height: 200px;
+}
+
+
+</style>

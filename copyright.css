@@ -1,0 +1,15 @@
+.copyright {
+            padding: 20px 40px;
+            border-top: 2px solid;
+            background: rgba(228,222,222,);
+            text-align: center;
+}
+.copyright p:nth-child(1) {
+                           color: #333;
+}
+.copyright a {
+              color: #8B63DA;
+              text-decoration: none;
+              font-size: 600;
+              font-style: italic;
+}

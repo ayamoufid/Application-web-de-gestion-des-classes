@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>GES CLASSE</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="STYLE.css">
+	<link rel="stylesheet" type="text/css" href="apropos.css">
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link rel="stylesheet" type="text/css" href="copyright.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript">
+		window.addEventListener('scroll',function()){
+													 const header = document.querySelector('header');
+													 header.classList.toogle("sticky", window.scrollY > 0);
+		                                            };
+		function toggleMenu() {
+						       const menutoggle = document.querySelector('.menutoggle');
+						 	   const navbar = document.querySelector('.navbar');
+						 	   toggleMenu.classList.toogle('active');
+						 	   navbar.classList.toogle('active');
+							  }
+	</script>
+</head>
+<body>
+	<header>
+		<a href="#home" class="logo"><span>BE</span>SMART</a>
+		<div class="menutoggle" onclick="toggleMenu();">
+		</div>
+        <ul class="navbar">
+	        <li><a href="#menu" onclick="toggleMenu();">Accueil</a></li>
+	        <li><a href="#apropos" onclick="toggleMenu();">A propos</a></li>
+	        <li><a href="#contact" onclick="toggleMenu();">Contactez-Nous</a></li>
+	        <a href="Controleurs/connectionUtilisateur.php" class="btn-connexion" onclick="toggleMenu();">Connexion</a>
+        </ul>
+	</header>
+	<section class="menu" id="menu">
+	   <section>
+		<div class="proverbe">
+		  <h4>Learners today.<br>Leaders tomorrow.</h4>
+	    </div>
+	   </section>			
+		<div class="contenu">
+			<h2>Le suivi scolaire des étudiants au bout des doigts</h2>
+			<p>Il s'agit d'une application web spécialisée dans la gestion des classes des étudiants et des enseignants </br>Suivez votre vie scolaire en toute sécurité et 100% en ligne</p>
+		</div>
+		<!--<div class="img">
+		   	<img src="https://www.touteleurope.eu/wp-content/uploads/2020/08/politique-euro-formation-education.jpg" alt="Education!">
+		</div>-->
+	</section>	
+	<section class="apropos" id="apropos">
+		<div class="row">
+		   <div class="col">
+			  <h3 class="titre"><span>A</span> propos</h3>
+			  <p>Application web qui permet aux étudiants d'obtenir aussitôt les notes disponibles(
+                 interrogations,devoirs ou examens),de consulter le programme des cours. De plus, GES CLASSE est aussi valable pour les enseignants.
+			  </p>
+		   </div>
+		   <div class="col">
+		   	<div class="img">
+		   	 <img src="https://ub-link.u-bourgogne.fr/wp-content/uploads/IMAG_que_faire_apres_licence_sciences_education.jpg" alt="Education!">
+		    </div>
+		   </div>
+		</div>
+	</section>	
+	<!--<section class="temoignage" id="temoignage">
+	  <div class="upbox">
+		   <div class="box">
+		   	<div class="inbox">
+		   		<img src="https://tse2.mm.bing.net/th?id=OIP.uBoFqGA44p_Qx29bPGSQGQHaEH&pid=Api&P=0&w=284&h=157" alt="enseignant">
+		   	</div>
+		   	<div class="text">
+		   		<h2>Enseignant</h2>
+		   		<p>Gerer les classes</p>
+		   		<p>Publier des annonces</p>
+		   		<p>Ajouter des devoirs</p>
+		   		<p>...</p>
+		   	</div>
+		   </div>
+		   <div class="box">
+		   	<div class="inbox">
+		   	    <img src="https://tse3.mm.bing.net/th?id=OIP.IH6KTkzkODK9v0AThsSPCQAAAA&pid=Api&P=0&w=204&h=153" alt="etudiant">
+		   	</div>
+		   	<div class="text">
+		   		<h2>Etudiant</h2>
+		   		<p>Consulter les classes</p>
+		   		<p>Poster les devoirs</p>
+		   		<p>Telecharger des documents</p>
+		   		<p>...</p>
+		   	</div>
+		   </div> 
+		   <div class="box">
+		   	<div class="inbox">
+		   	    <img src="https://tse2.mm.bing.net/th?id=OIP.eZGf8R7A6-trsCXMgFVeVAHaHa&pid=Api&P=0&w=189&h=189" alt="enLigne">
+		   	</div>
+		   	<div class="text">
+		   		 <h2>Restez connecté(e)</h2>
+		   		<p>Fini le manque de visibilité sur votre vie scolaire.</p>
+		   	</div>
+		   </div>
+	  </div>
+	</section>-->
+	<!--<div class="container">
+        <div class="card" style="--clr1: #cfcbd2; --clr2: #cb98ed; ">
+            <div class="nom">
+                <h1>Étudiant</h1>    
+            </div>
+            <div class="details">
+                <h2></h2>
+                <div class="options">
+                    <h4>Consulter les classes</h4>
+                    <h4>Poster les devoirs</h4>
+                    <h4>Telecharger des documents</h4> 
+                    <h4>...</h4>  
+                </div>
+            </div>
+        </div>
+        <div class="card" style="--clr1: #8b63da; --clr2: #3c21b7; ">
+            <div class="nom">
+                <h1>Enseignant</h1>    
+            </div>
+            <div class="details">
+                <h2></h2>
+                <div class="options">
+                    <h4>Gerer les classes</h4>
+                    <h4>Publier des annonces</h4>
+                    <h4>Ajouter des devoirs</h4>  
+                    <h4>...</h4>  
+                </div>
+            </div>
+        </div>
+    </div>-->
+   	<div id="contact" class="all">
+ 	<div class="bd">
+	<div class="container">
+        <h1 class="headers">Contactez-nous</h1>
+        <div class="content">
+        	<div class="content-form">
+                <section>
+                    <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                    <h2>Téléphone</h2>
+                    <p><a href="tel:0603434323">+212603-434323</a></p>
+                </section>
+                <section>
+                    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+                    <h2>Email</h2>
+                    <p><a href="mailto:contact@gmail.com">contact@gmail.com</a></p>
+                </section>
+            </div>
+        </div> 
+        <form>
+        	<div class="form">
+            	<div class="right">
+              		<div class="contact-form">
+                  		<input type="text" name="nom" required>
+                  		<span>Nom & Prenom:</span>
+              		</div>
+                    <div class="contact-form">
+                    	<input type="E-mail" name="email" required>
+                    	<span>Email:</span>
+              		</div>
+                    <div class="contact-form">
+                    	<textarea name="text" name="msg"></textarea>
+                        <span>Ecrire le Message....</span>
+                    </div>
+                    <div class="contact-form">
+                    	<input type="submit" name="submit">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="media">
+            <li><a style="color: #1877f2;" class="fa fa-facebook-square fa-2x" aria-hidden="true" href="#facebook"></a></li>
+            <li><a style="color: #ff1177;" class="fa fa-instagram fa-2x" aria-hidden="true"  href="#instagram"></a></li>
+            <li><a style="color: #25d366; " class="fa fa-whatsapp fa-2x" aria-hidden="true"  href="#whatsapp"></a></li>
+            <li><a style="color: #1DA1F2" class="fa fa-twitter-square fa-2x" aria-hidden="true"  href="#twitter"></a></li>
+        </div> 
+      </div>
+     </div>
+    </div>
+	<div class="copyright">
+		<p>copyright 2021 <a href="#">BESMART</a>.Tous droits reservés.</p>
+		<p>Fondateurs du site: <span>AYA MOUFID.</span><br>
+			                   <span>CHAIMAA SOUHIR.</span><br>
+			                   <span>KAWTAR FARROUJI.</span>
+	</div>			
+</body>
+</html>

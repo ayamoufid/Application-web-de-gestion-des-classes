@@ -1,0 +1,218 @@
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/photos-gratuite/e-learning-education-ligne-pour-etudiant-universite-concept_31965-6536.jpg);
+    background-size: cover;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo{
+    color: #CFCBD2;
+    font-size: 28px;
+}
+span{
+    color: #8B98ED;
+}
+.bar {
+    height: 100vh;
+    width: 100%;
+   /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(https://img.freepik.com/photos-gratuite/e-learning-education-ligne-pour-etudiant-universite-concept_31965-6536.jpg);
+    background-size: cover;*/
+    background-position: center;
+    }
+
+
+nav{ display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.button:focus{
+        /*outline: 3px solid rgb(220 53 69 / 50%);*/
+        color: red;
+    }
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px 50px;
+    padding-top: 30px;
+}
+nav ul li a{
+    color: #CB98ED;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #3C21B7;
+    transition: .3s;
+    cursor: pointer;
+    transform: scale(1.3);
+    text-decoration: underline;
+}
+.button{
+    background: #3C21B7;
+    color: white;
+}
+button {
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    background: #3C21B7;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s;
+}
+input[type="submit"]{
+    padding: 12px 30px;
+    border-radius: 30px;
+    border: none;
+    /*background: #3C21B7;*/
+    /*color: white;*/
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s;
+
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+ .form{
+        margin-top: 30%;
+        margin-left: -28%;
+        position:absolute;
+    }
+
+.column2{
+   left: -700px;
+  /*padding:0px    700px ;*/
+
+}    
+    fieldset{
+       
+        margin-top: -500px;
+        width: 27%;
+        background-color: #9f83c9;/*#D8BFD8*/
+        border: 0;
+        padding-left: 15px;
+        border-radius: 10px;
+        color: white;
+
+                height: 40px;
+    }
+    td{ letter-spacing: 1px;
+         color: #291f38;
+     }
+    h2{
+        font-family: andalus;
+        letter-spacing: 3px;
+        /*text-align: center;*/
+        color: black;
+        padding-top: 5px;
+    }
+    hr{
+        border: 5px solid white;
+        border-radius: 10px;
+        width: 40%;  
+        text-align: center;
+     }
+     #submit{
+        margin: 20px 35px;
+        color: #D8BFD8;
+        background-color: white;
+        width: 20%;
+        font-size: 17px;
+        border-radius: 20px;
+        border: 1px solid white;
+        padding: 10px;
+        position: absolute;
+        left: 900px;
+        top: 500px;
+     }
+     #submit:hover{
+        color: white;
+        background-color: #D8BFD8;
+        cursor: pointer;
+     }
+
+     input[type="text"] {
+        font-size: 16px;
+        border: none;
+        outline: non;
+        background: none;
+        border-bottom:1px solid white ;
+        color: #291f38;
+        width: 100%;
+     }
+
+.row {
+  margin-left:15px;
+  margin-right:5px;
+}
+ 
+.column {
+  float: left;
+  /* width: 40%;*/
+ padding: 50px;
+ padding-right: 0px;
+ padding-left: 0px;
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.table {
+
+  width: 70%;
+  border: 1px solid purple;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+  width: 30%;
+}
+
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+p i {
+  color: white;
+  padding-right: 0%;
+}  
+p {
+  color: white;
+  margin-right: 0px;
+}
+div a i{
+  color: white;
+    padding-right: 0px;
+    padding-bottom: 40px;
+}
+a {color: white;}
+.tab {
+  padding-top: 50px;
+  padding-left: 200px;
+}
